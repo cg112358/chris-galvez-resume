@@ -1,11 +1,11 @@
-# Christopher “Chris” Galvez – Resume
+# Christopher “Chris” Galvez — Resume
 
-View online (no download): **https://cg112358.github.io/chris-galvez-resume/**
+**View in browser (no download):** https://cg112358.github.io/chris-galvez-resume/
 
-- 📄 **Black & White (ATS):** `Chris_Galvez_Resume_FINAL.pdf`
-- 🎨 **Color Version:** `alt_versions/Chris_Galvez_Resume_COLOR.pdf`
-- 🔗 **LinkedIn:** https://www.linkedin.com/in/christopher-galvez-98bb5333b  
-- 💻 **GitHub Profile:** https://github.com/cg112358  
+- 📄 **Chris’ Resume (ATS, PDF):** [Open in browser](Chris_Galvez_Resume_FINAL.pdf)
+- 🎨 **Chris’ Resume (Color, PDF):** [Open in browser](alt_versions/Chris_Galvez_Resume_COLOR.pdf)
+- 🔗 **LinkedIn:** https://www.linkedin.com/in/christopher-galvez-98bb5333b
+- 💻 **GitHub Profile:** https://github.com/cg112358
 - 🧪 **Crypto Price Tracker (Python + Excel):** https://github.com/cg112358/crypto-price-tracker
 
 ---

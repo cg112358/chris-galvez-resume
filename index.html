@@ -1,34 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chris Galvez — Resume</title>
   <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 24px; }
-    h1 { margin-bottom: 4px; }
-    .links a { margin-right: 16px; }
-    iframe { width: 100%; height: 900px; border: 1px solid #ddd; border-radius: 8px; }
-    .section { margin-top: 28px; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+      text-align: center;
+    }
+    h1 {
+      color: #0056b3;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    a {
+      display: block;
+      margin: 15px 0;
+      padding: 12px;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+      background: #0056b3;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+    a:hover {
+      background: #003d80;
+    }
   </style>
 </head>
 <body>
-  <h1>Chris Galvez — Resume</h1>
-  <div class="links">
-    <a href="https://github.com/cg112358">GitHub Profile</a>
-    <a href="https://www.linkedin.com/in/christopher-galvez-98bb5333b">LinkedIn</a>
-    <a href="alt_versions/Chris_Galvez_Resume_COLOR.pdf" download>Download Color PDF</a>
-    <a href="Chris_Galvez_Resume_FINAL.pdf" download>Download B/W PDF</a>
-  </div>
-
-  <div class="section">
-    <h2>Black &amp; White (ATS)</h2>
-    <iframe src="Chris_Galvez_Resume_FINAL.pdf"></iframe>
-  </div>
-
-  <div class="section">
-    <h2>Color Version</h2>
-    <iframe src="alt_versions/Chris_Galvez_Resume_COLOR.pdf"></iframe>
+  <div class="container">
+    <h1>Chris Galvez — Resume</h1>
+    <p>Select a version to view:</p>
+    <a href="Chris_Galvez_Resume_FINAL.pdf" target="_blank">📄 View Black & White Resume (ATS-Safe)</a>
+    <a href="alt_versions/Chris_Galvez_Resume_COLOR.pdf" target="_blank">🎨 View Color Resume (Frontend/Full Stack)</a>
+    <a href="https://github.com/cg112358" target="_blank">💻 View GitHub Profile</a>
+    <a href="https://www.linkedin.com/in/christopher-galvez-98bb5333b" target="_blank">🔗 View LinkedIn</a>
   </div>
 </body>
 </html>

@@ -7,7 +7,7 @@ README = ROOT / "README.md"
 OUT = ROOT / "repo_tree.md"
 
 EXCLUDE_DIRS = {".git", ".github", ".venv", "__pycache__", "node_modules"}
-EXCLUDE_FILES = {"gen_tree.py"}
+EXCLUDE_FILES = {".DS_Store", ".gitignore", "gen_tree.py", "repo_tree.md"}
 
 def build_tree(path: Path, prefix=""):
     lines = []

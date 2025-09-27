@@ -72,6 +72,19 @@ Software QA / Software Engineer with strong foundations in Python, SQL, Git, and
 ---
 
 ## Education
+
+**Codecademy** — Online  
+• **Computer Science Career Path** — 100% (Certificate Earned)  
+• **Data Engineer Career Path** — 100% (Certificate Earned)  
+• **Learn Advanced Python 3** — 100% (Certificate Earned)  
+• **Learn Git & GitHub** — 100% (Certificate Earned)  
+• **Learn the Command Line** — 100% (Certificate Earned)  
+• **Learn Data Analysis with Pandas** — 100% (Certificate Earned)  
+• **Machine Learning / AI Engineer Career Path** — 62% (In Progress)  
+• **Full-Stack Engineer Career Path** — 55% (In Progress, Est. Aug 2025)  
+
+**Certificates Repository:** [cg112358/certificates](https://cg112358.github.io/certificates/)  
+
 **Sierra College** — Rocklin, CA  
-Construction Management Coursework (2006–2010)  
-- Transitioned from internship to technical drafting hire  
+• Construction Management Coursework (2006–2010)  
+• Transitioned from internship to technical drafting hire  

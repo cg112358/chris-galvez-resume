@@ -1,8 +1,7 @@
 # Christopher “Chris” Galvez
 Colbert, GA 30628  
 📧 [christopherg112358@yahoo.com](mailto:christopherg112358@yahoo.com) | 📱 (916) 519-6651  
-[LinkedIn](https://www.linkedin.com/in/christopher-galvez-98bb5333b) | [Resume Hub](https://cg112358.github.io)
-
+[LinkedIn](https://www.linkedin.com/in/christopher-galvez-98bb5333b) | 🚀 **[Click here to view my Live Resume Hub](https://cg112358.github.io/)**
 
 ---
 
@@ -89,3 +88,4 @@ Software QA / Software Engineer with strong foundations in Python, SQL, Git, and
 **Sierra College** — Rocklin, CA  
 • Construction Management Coursework (2006–2010)  
 • Transitioned from internship to technical drafting hire  
+

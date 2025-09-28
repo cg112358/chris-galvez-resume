@@ -1,9 +1,9 @@
 # Christopher “Chris” Galvez — Resume
 
-**View in browser (no download):** https://cg112358.github.io/chris-galvez-resume/
+**🌐 View Live Resume Hub:** https://cg112358.github.io/
 
-- 📄 **Chris’ Resume (ATS, PDF):** [Open in browser](https://cg112358.github.io/chris-galvez-resume/Chris_Galvez_Resume_FINAL.pdf)
-- 🎨 **Chris’ Resume (Color, PDF):** [Open in browser](https://cg112358.github.io/chris-galvez-resume/alt_versions/Chris_Galvez_Resume_COLOR.pdf)
+**Chris’ Resume (ATS, PDF):** [Open in browser](https://cg112358.github.io/Chris_Galvez_Resume_FINAL.pdf)
+- 🎨 **Chris’ Resume (Color, PDF):** [Open in browser](https://cg112358.github.io/alt_versions/Chris_Galvez_Resume_COLOR.pdf)
 
 - 🔗 **LinkedIn:** https://www.linkedin.com/in/christopher-galvez-98bb5333b
 - 💻 **GitHub Profile:** https://github.com/cg112358

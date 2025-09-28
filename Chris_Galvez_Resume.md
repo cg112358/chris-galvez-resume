@@ -1,7 +1,8 @@
 # Christopher “Chris” Galvez
 Colbert, GA 30628  
 📧 [christopherg112358@yahoo.com](mailto:christopherg112358@yahoo.com) | 📱 (916) 519-6651  
-[LinkedIn](https://www.linkedin.com/in/christopher-galvez-98bb5333b) | [GitHub Portfolio](https://github.com/cg112358/crypto-price-tracker)
+[LinkedIn](https://www.linkedin.com/in/christopher-galvez-98bb5333b) | [Resume Hub](https://cg112358.github.io)
+
 
 ---
 

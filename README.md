@@ -16,7 +16,7 @@
 <!-- BEGIN REPO TREE -->
 <!-- autogen: do not edit inside this block -->
 ```text
-text
+
 ├── alt_versions
 │   └── Chris_Galvez_Resume_COLOR.pdf
 ├── Chris_Galvez_Resume.md

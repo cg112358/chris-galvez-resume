@@ -1,27 +1,32 @@
 @echo off
-setlocal enabledelayedexpansion
+setlocal
 
-REM ---- Settings ----
 set INPUT=Chris_Galvez_Resume.md
 set ATS_OUT=Chris_Galvez_Resume_FINAL.pdf
 set COLOR_OUT=alt_versions\Chris_Galvez_Resume_COLOR.pdf
 
-REM Ensure folders exist
 if not exist alt_versions mkdir alt_versions
-if not exist tools mkdir tools
+if not exist tex_includes mkdir tex_includes
 
-REM Build ATS-safe (strip emojis, plain font)
 echo [1/3] Stripping emojis for ATS-safe build...
 python tools\strip_emoji.py "%INPUT%" ".tmp_noemoji.md" || goto :error
 
-echo [2/3] Building ATS PDF...
-pandoc ".tmp_noemoji.md" -o "%ATS_OUT%" --pdf-engine=xelatex -V mainfont="TeX Gyre Heros" || goto :error
+echo [2/3] Building ATS PDF (B/W)...
+pandoc ".tmp_noemoji.md" -o "%ATS_OUT%" --pdf-engine=xelatex ^
+  -V mainfont="Latin Modern Roman" ^
+  -V geometry:margin=1in ^
+  -V colorlinks=false -V linkcolor=black -V urlcolor=black ^
+  -H tex_includes\typography.tex || goto :error
 
-REM Build Color (keep emojis, use Unicode-friendly font)
-echo [3/3] Building Color PDF (Unicode font)...
-pandoc "%INPUT%" -o "%COLOR_OUT%" --pdf-engine=xelatex -V mainfont="DejaVu Sans" || goto :error
+echo [3/3] Building Color PDF (blue headers)...
+pandoc "%INPUT%" -o "%COLOR_OUT%" --pdf-engine=xelatex ^
+  -V mainfont="Latin Modern Roman" ^
+  -V geometry:margin=1in ^
+  -V colorlinks=false -V linkcolor=black -V urlcolor=black ^
+  -H tex_includes\typography.tex ^
+  -H tex_includes\color_headers.tex || goto :error
 
-del ".tmp_noemoji.md" 2>nul
+del ".tmp_noemoji.md" >nul 2>&1
 echo Done.
 exit /b 0
 

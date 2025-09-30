@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Preview PDFs (no commit)",
+      "type": "shell",
+      "command": "powershell",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "tools/preview_pdfs.ps1"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Build PDFs (final)",
+      "type": "shell",
+      "command": "powershell",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "tools/build_pdfs_ps.ps1"],
+      "problemMatcher": []
+    }
+  ]
+}

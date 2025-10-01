@@ -1,22 +1,11 @@
-<<<<<<< Updated upstream
-preview/
-=======
-# ----- editor/OS noise -----
 .vscode/*
 !.vscode/tasks.json
-!.vscode/extensions.json
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# ----- project previews / scratch -----
 preview/
-
-# ----- Python cache (for helper scripts) -----
 __pycache__/
 *.pyc
-
-# ----- LaTeX aux files (harmless if unused) -----
 *.aux
 *.log
 *.out
@@ -24,6 +13,3 @@ __pycache__/
 *.fls
 *.fdb_latexmk
 *.synctex.gz
-
-# Intentionally DO NOT ignore PDFs (they are part of the repo)
->>>>>>> Stashed changes

@@ -6,19 +6,19 @@ Colbert, GA 30628 | ■ [christopherg112358@yahoo.com](mailto:christopherg112358
 Software QA / Software Engineer with strong foundations in Python, SQL, Git, and databases. Over 1 year of experience training and evaluating AI systems, plus 20 years of leadership in project management and operations. Skilled in testing, debugging, structured data evaluation, and building reliable code. Currently completing Full-Stack Engineer (55%) and Machine Learning/AI Engineer (62%) career paths to deepen software expertise. Committed to leveraging both technical and leadership skills to deliver human-centered, high-quality software solutions.
 
 ## Technical Skills
-- **Languages & Tools**: Python, SQL, JavaScript, Git, GitHub, Bash, JSON, HTML, CSS  
+- **Languages & Tools**: Python, SQL, JavaScript *(expanding into TypeScript)*, Git, GitHub, Bash, JSON, HTML, CSS  
 - **Databases**: PostgreSQL, MongoDB  
-- **Frameworks/Libraries**: Node.js, React (in progress)  
+- **Frameworks/Libraries**: Node.js, React *(in progress)*  
 - **Concepts**: QA Testing, Test Cases, Debugging, Defect Tracking, Data Structures, Algorithms  
-- **Software**: AutoCAD, Excel, Google Sheets, QuickBooks  
+- **Software**: AutoCAD, Excel, Google Sheets, QuickBooks, VS Code  
 
 ## Technical Certificates
 - Advanced Python 3 — Codecademy  
 - Computer Science Career Path — Codecademy  
-- Data Engineer Career Path — Codecademy  
+- Data Engineer Career Path — Codecademy
 - Git & GitHub, Command Line, MongoDB — Codecademy  
-- Full-Stack Engineer Career Path — In Progress (Est. Completion: Aug 2025)  
-- Machine Learning/AI Engineer Career Path — In Progress  
+- Full-Stack Engineer Career Path — In Progress *(Est. Completion: December 2025)* 
+- Machine Learning/AI Engineer Career Path — In Progress 
 
 ## Projects
 ### Crypto Investment Tracker (Python + Excel) | [GitHub](https://github.com/cg112358/crypto-price-tracker)  
@@ -39,7 +39,7 @@ Software QA / Software Engineer with strong foundations in Python, SQL, Git, and
 - Delivered HTML & CSS projects (beginner & intermediate levels)  
 
 ## AI & Technical Work Experience
-### AI Trainer — Data Annotation Tech *(Remote)* | *Oct 2023 – Present*  
+### AI Trainer — Data Annotation Tech *(Remote)* | *Oct 2023 – Sept 2025
 - Designed and tested advanced prompts for LLMs  
 - Evaluated chatbot conversations and goal-oriented dialogues  
 - Created and reviewed JSON-formatted data structures  
@@ -65,8 +65,8 @@ Software QA / Software Engineer with strong foundations in Python, SQL, Git, and
 - **Learn Git & GitHub** — 100% (Certificate Earned)  
 - **Learn the Command Line** — 100% (Certificate Earned)  
 - **Learn Data Analysis with Pandas** — 100% (Certificate Earned)  
-- **Machine Learning / AI Engineer Career Path** — 62% (In Progress)  
-- **Full-Stack Engineer Career Path** — 55% (In Progress, Est. Aug 2025)  
+- **Machine Learning / AI Engineer Career Path** — 62% *(In Progress)*
+- **Full-Stack Engineer Career Path** — 55% *(In Progress)* 
 
 ### Certificates Repository: [cg112358/certificates](https://cg112358.github.io/certificates/)  
 

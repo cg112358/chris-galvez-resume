@@ -17,9 +17,6 @@
 <!-- autogen: do not edit inside this block -->
 ```text
 chris-galvez-resume
-├── .vscode
-│   ├── seetings.json
-│   └── tasks.json
 ├── alt_versions
 │   └── Chris_Galvez_Resume_COLOR.pdf
 ├── dev
@@ -34,7 +31,6 @@ chris-galvez-resume
 │   ├── fix_pdf_metadata.py
 │   ├── preview_pdfs.ps1
 │   └── strip_emoji.py
-├── .gitattributes
 ├── build_pdfs.bat
 ├── build_pdfs.sh
 ├── Chris_Galvez_Resume.md

@@ -9,15 +9,20 @@ OUT = ROOT / "repo_tree.md"
 EXCLUDE_DIRS = {".git", ".github", ".venv", "__pycache__", "node_modules"}
 EXCLUDE_FILES = {".DS_Store", ".gitignore", "gen_tree.py", "repo_tree.md"}
 
-def build_tree(path: Path, prefix=""):
+def build_tree(path: Path, prefix: str = "") -> list[str]:
     """Recursively build a text-based tree."""
-    lines = []
-    # folders first (alpha), then files (alpha)
+    lines: list[str] = []
+
     entries = sorted(
-        [p for p in path.iterdir()
-         if p.name not in EXCLUDE_FILES and p.name not in EXCLUDE_DIRS],
+        [
+            p for p in path.iterdir()
+            if not p.name.startswith(".")
+            and p.name not in EXCLUDE_FILES
+            and p.name not in EXCLUDE_DIRS
+        ],
         key=lambda p: (p.is_file(), p.name.lower())
     )
+
     for i, p in enumerate(entries):
         elbow = "└── " if i == len(entries) - 1 else "├── "
         lines.append(prefix + elbow + p.name)
@@ -25,6 +30,7 @@ def build_tree(path: Path, prefix=""):
             more = "    " if i == len(entries) - 1 else "│   "
             lines.extend(build_tree(p, prefix + more))
     return lines
+
 
 def make_md_tree():
     """Generate the markdown tree with the root folder name included."""

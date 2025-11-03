@@ -1,15 +1,50 @@
-.vscode/*
-!.vscode/tasks.json
-.DS_Store
-Thumbs.db
-desktop.ini
-preview/
+# ─────────────────────────────
+# Python / Virtual Environment
+# ─────────────────────────────
+.venv/
 __pycache__/
-*.pyc
+*.py[cod]
+
+# ─────────────────────────────
+# Pandoc / LaTeX build artifacts
+# ─────────────────────────────
 *.aux
 *.log
 *.out
 *.toc
+*.synctex.gz
 *.fls
 *.fdb_latexmk
-*.synctex.gz
+*.xdv
+*.tex
+*.tmp
+*.bak
+
+# MiKTeX / Pandoc cache dirs
+texmf/
+miktex/
+cache/
+pandoc/
+
+# ─────────────────────────────
+# Editors / IDEs
+# ─────────────────────────────
+.vscode/
+.idea/
+
+# ─────────────────────────────
+# OS & Temp files
+# ─────────────────────────────
+.DS_Store
+Thumbs.db
+~$*
+*.swp
+*.swo
+
+# ─────────────────────────────
+# Archives / Misc
+# ─────────────────────────────
+*.zip
+*.tar
+*.tar.gz
+*.tgz

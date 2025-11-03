@@ -1,0 +1,31 @@
+\usepackage{titlesec}
+\usepackage{anyfontsize}
+\usepackage{sectsty}
+
+\AtBeginDocument{\fontsize{10pt}{12pt}\selectfont} % body = ~12px
+
+\titleformat{\section}{\bfseries\fontsize{13pt}{15pt}\selectfont}{}{0pt}{}   % H1 ~17px
+\titleformat{\subsection}{\bfseries\fontsize{11pt}{13pt}\selectfont}{}{0pt}{} % H2 ~14px
+\titleformat{\paragraph}{\bfseries\fontsize{10pt}{12pt}\selectfont}{}{0pt}{}  % Subheader ~13px
+
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+\titlespacing*{\subsection}{0pt}{4pt}{2pt}
+\titlespacing*{\paragraph}{0pt}{2pt}{1pt}
+
+% tex_includes/typography.tex
+\usepackage{fontspec}
+
+% Hard-code font to Arial for ATS-safe resumes
+\setmainfont{Arial}
+\setsansfont{Arial}
+\setmonofont{Courier New} % fallback for code/monospace
+
+% Suppress author line in Pandoc's default LaTeX template
+\makeatletter
+\def\@author{}
+\makeatother
+
+% Suppress Pandoc's title block completely
+\makeatletter
+\def\maketitle{}
+\makeatother

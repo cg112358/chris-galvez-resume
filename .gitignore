@@ -20,6 +20,10 @@ __pycache__/
 *.tmp
 *.bak
 
+# --- keep our template includes tracked ---
+!tex_includes/
+!tex_includes/*.tex
+
 # MiKTeX / Pandoc cache dirs
 texmf/
 miktex/

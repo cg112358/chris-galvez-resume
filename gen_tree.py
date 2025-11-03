@@ -10,6 +10,7 @@ EXCLUDE_DIRS = {".git", ".github", ".venv", "__pycache__", "node_modules"}
 EXCLUDE_FILES = {".DS_Store", ".gitignore", "gen_tree.py", "repo_tree.md"}
 
 def build_tree(path: Path, prefix=""):
+    """Recursively build a text-based tree."""
     lines = []
     # folders first (alpha), then files (alpha)
     entries = sorted(
@@ -26,12 +27,16 @@ def build_tree(path: Path, prefix=""):
     return lines
 
 def make_md_tree():
-    body = ["```text", "text"]
+    """Generate the markdown tree with the root folder name included."""
+    repo_name = ROOT.name
+    body = ["```text"]
+    body.append(repo_name)  # 👈 Adds the top-level folder name
     body.extend(build_tree(ROOT))
     body.append("```")
     return "\n".join(body)
 
 def ensure_block_in_readme(readme_text: str, md_tree: str) -> str:
+    """Ensure the tree block in README.md stays between markers."""
     start = "<!-- BEGIN REPO TREE -->"
     end = "<!-- END REPO TREE -->"
     payload = f"""{start}
@@ -48,11 +53,12 @@ def main():
     md_tree = make_md_tree()
     OUT.write_text(md_tree, encoding="utf-8")
 
-    readme = README.read_text(encoding="utf-8")
-    updated = ensure_block_in_readme(readme, md_tree)
-    README.write_text(updated, encoding="utf-8")
+    if README.exists():
+        readme = README.read_text(encoding="utf-8")
+        updated = ensure_block_in_readme(readme, md_tree)
+        README.write_text(updated, encoding="utf-8")
 
-    print("Repo tree updated in README.md and repo_tree.md")
+    print("✅ Repo tree updated in README.md and repo_tree.md")
 
 if __name__ == "__main__":
     main()

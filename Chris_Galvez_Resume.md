@@ -39,6 +39,10 @@ Software QA / Software Engineer with strong foundations in Python, SQL, Git, and
 - Delivered HTML & CSS projects (beginner & intermediate levels)  
 
 ## AI & Technical Work Experience
+
+### Digital Annotation Expert — Mercor *(Remote)* | *Nov 2025 – To Present
+- Work remote and asyncronus in the artifical intellegence industry.
+
 ### AI Trainer — Data Annotation Tech *(Remote)* | *Oct 2023 – Sept 2025
 - Designed and tested advanced prompts for LLMs  
 - Evaluated chatbot conversations and goal-oriented dialogues  
@@ -54,7 +58,7 @@ Software QA / Software Engineer with strong foundations in Python, SQL, Git, and
 - Supervised crews of up to 8; ensured compliance with payroll, insurance, and legal requirements  
 - Performed carpentry, plumbing, electrical, roofing, and remodeling  
 
-### Other Roles**: Carpenter Foreman — Carter Kelly Inc. | AutoCAD Drafter — Archoustics West  
+### Other Roles: Carpenter Foreman — Carter Kelly Inc. | AutoCAD Drafter — Archoustics West  
 
 ## Education
 

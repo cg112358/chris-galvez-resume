@@ -1,9 +1,9 @@
 # Christopher “Chris” Galvez
 
-Colbert, GA 30628 | ■ [christopherg112358@yahoo.com](mailto:christopherg112358@yahoo.com) | ■ (916) 519-6651 | ■ [LinkedIn](https://www.linkedin.com/in/christopher-galvez-98bb5333b) | ■ **[Click Live ResumeHUB](https://cg112358.github.io)** | ■ [GitHub Portfolio](https://github.com/cg112358)
+Colbert, GA 30628 | - [christopherg112358@yahoo.com](mailto:christopherg112358@yahoo.com) | - (916) 519-6651 | - [LinkedIn](https://www.linkedin.com/in/christopher-galvez-98bb5333b) | - **[Click Live ResumeHUB](https://cg112358.github.io)** | - [GitHub Portfolio](https://github.com/cg112358)
 
 ## Professional Summary
-Software QA / Software Engineer with strong foundations in Python, SQL, Git, and databases. Over 1 year of experience training and evaluating AI systems, plus 20 years of leadership in project management and operations. Skilled in testing, debugging, structured data evaluation, and building reliable code. Currently completing Full-Stack Engineer (55%) and Machine Learning/AI Engineer (62%) career paths to deepen software expertise. Committed to leveraging both technical and leadership skills to deliver human-centered, high-quality software solutions.
+Software QA / Software Engineer with strong foundations in Python, SQL, Git, and databases. Over 1 year of professional experience training and evaluating AI systems, plus 20 years of leadership in project management and operations. Skilled in testing, debugging, structured data evaluation, and building reliable code. Currently completing Full-Stack Engineer (55%) and Machine Learning/AI Engineer (62%) career paths to deepen software expertise. Committed to leveraging both technical and leadership skills to deliver human-centered, high-quality software solutions.
 
 ## Technical Skills
 - **Languages & Tools**: Python, SQL, JavaScript *(expanding into TypeScript)*, Git, GitHub, Bash, JSON, HTML, CSS  
@@ -40,10 +40,10 @@ Software QA / Software Engineer with strong foundations in Python, SQL, Git, and
 
 ## AI & Technical Work Experience
 
-### Digital Annotation Expert — Mercor *(Remote)* | *Nov 2025 – To Present
-- Work remote and asyncronus in the artifical intellegence industry.
+### Digital Annotation Expert — Mercor *(Remote)* | *Nov 2025 – Jan 2026
+- Worked remotely and asynchronously in the Artificial Intelligence industry.
 
-### AI Trainer — Data Annotation Tech *(Remote)* | *Oct 2023 – Sept 2025
+### AI Trainer — Data Annotation Tech *(Remote)* | *Oct 2023 – Sep 2025
 - Designed and tested advanced prompts for LLMs  
 - Evaluated chatbot conversations and goal-oriented dialogues  
 - Created and reviewed JSON-formatted data structures  

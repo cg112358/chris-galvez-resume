@@ -1,4 +1,17 @@
 % tex_includes/margins.tex
+% ------------------------------------------------------------
+% Page geometry + list spacing control (ATS + Color builds)
+%
+% Goals:
+% - Stable margins
+% - Predictable paragraph spacing
+% - Consistent, readable bullet spacing
+% - Prevent Pandoc's \tightlist from unexpectedly compressing lists
+%
+% Principle:
+% - enumitem is the single source of truth for list layout.
+% - \tightlist is neutralized (no-op), so it cannot override spacing.
+% ------------------------------------------------------------
 
 \usepackage{geometry}
 \geometry{
@@ -9,8 +22,34 @@
   bottom=0.7in
 }
 
+% Paragraph defaults
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{2pt}
 
+% List spacing & alignment
 \usepackage{enumitem}
-\setlist{nosep,leftmargin=*,labelindent=0pt,labelsep=0.35em,itemsep=0pt,topsep=0pt}
+
+% Pandoc sometimes injects \tightlist before lists to compress spacing.
+% Make it a no-op so it cannot override our enumitem settings.
+\providecommand{\tightlist}{}
+
+% Deterministic list layout
+\setlist[itemize]{
+  leftmargin=1.2em,
+  labelindent=0pt,
+  labelsep=0.6em,
+  itemsep=3pt,
+  topsep=3pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\setlist[enumerate]{
+  leftmargin=1.2em,
+  labelindent=0pt,
+  labelsep=0.6em,
+  itemsep=3pt,
+  topsep=3pt,
+  parsep=0pt,
+  partopsep=0pt
+}

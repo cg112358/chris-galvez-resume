@@ -52,3 +52,10 @@ Thumbs.db
 *.tar
 *.tar.gz
 *.tgz
+
+# ─────────────────────────────
+# Resume build outputs
+# ─────────────────────────────
+output/
+.tmp_noemoji.md
+*_TEST.pdf

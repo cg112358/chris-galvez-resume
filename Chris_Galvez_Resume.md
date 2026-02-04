@@ -54,17 +54,21 @@ Software QA / Software Engineer with strong foundations in Python, SQL, Git, and
 ## Construction & Management Experience
 Hands-on leadership roles providing long-term experience in planning, execution, technical documentation, and team supervision.
 
-### General Contractor / Owner | Valiant General Contracting, Penn Valley, CA | *Dec 2010 – Apr 2021*
+### General Contractor / Owner — Valiant General Contracting, Penn Valley, CA | *Dec 2010 – Apr 2021*
 - Managed full-scale residential and light commercial projects
 - Drafted AutoCAD designs and submitted engineered plans for permitting
 - Supervised crews of up to 8; ensured compliance with payroll, insurance, and legal requirements
 - Performed carpentry, plumbing, electrical, roofing, and remodeling
+- Continued managing select contracting projects alongside later full-time roles to ensure client commitments were fulfilled
 
-### Carpenter Foreman — Carter Kelly Inc.
-- Led crews on residential and commercial construction projects
-- Coordinated schedules, materials, and quality control
+### Carpenter Foreman / Framer / Tradesman — Carter Kelly Inc., Placerville, CA | *Jan 2017 – Apr 2020*
+- Led wood framing crews as a journeyman lead and foreman across large-scale residential and commercial builds
+- Interpreted plans, layouts, and specifications to drive accurate framing, sequencing, and material usage
+- Coordinated crew assignments, workflow, and on-site quality to maintain schedule and safety standards
+- Performed finish carpentry and structural work requiring precision and adherence to design tolerances
+- Applied experience in industrial construction and hospital remodel environments, including metal stud framing and clean-work conditions
 
-### AutoCAD Drafter — Archoustics West
+### AutoCAD Drafter — Archoustics West | *2008 – 2009*
 - Produced technical drawings and layouts using AutoCAD
 - Supported engineers and project managers with accurate documentation
 
@@ -84,5 +88,6 @@ Hands-on leadership roles providing long-term experience in planning, execution,
 ### Certificates Repository: [cg112358/certificates](https://cg112358.github.io/certificates/)
 
 ### Sierra College — Rocklin, CA
-- Construction Management Coursework (2006–2010)
-- Transitioned from internship to technical drafting hire
+**Engineering Support – Architectural** — Certificate Earned
+- Architectural drafting, CAD, and construction document coursework
+- Framing systems, building industry analysis, and technical design fundamentals

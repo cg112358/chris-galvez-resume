@@ -1,6 +1,6 @@
 # Christopher “Chris” Galvez
 
-Colbert, GA | - [christopherg112358@yahoo.com](mailto:christopherg112358@yahoo.com) | - [LinkedIn](https://www.linkedin.com/in/christopher-galvez-98bb5333b) | - **[Click Live ResumeHUB](https://cg112358.github.io)** | - [GitHub Portfolio](https://github.com/cg112358)
+Colbert, GA | [christopher.galvez.dev@gmail.com](mailto:christopherg112358@yahoo.com) | [LinkedIn](https://www.linkedin.com/in/christopher-galvez-98bb5333b) | **[Click Live ResumeHUB](https://cg112358.github.io)** | [GitHub Portfolio](https://github.com/cg112358)
 
 ## Professional Summary
 

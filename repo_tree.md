@@ -2,9 +2,9 @@
 chris-galvez-resume
 ├── alt_versions
 │   └── Chris_Galvez_Resume_COLOR.pdf
-├── dev
-│   └── preview.html
 ├── docs
+├── output
+│   └── Chris_Galvez_Resume_FINAL.pdf
 ├── tex_includes
 │   ├── color_headers.tex
 │   ├── margins.tex

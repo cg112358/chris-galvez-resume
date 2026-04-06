@@ -10,6 +10,10 @@ The resume is written in Markdown and automatically converted into polished PDFs
 
 https://cg112358.github.io/
 
+This GitHub Pages site is the canonical ResumeHub entry point for viewing my resume and portfolio.
+
+The repository here focuses on the resume source, build pipeline, and generated artifacts.
+
 ---
 
 ## 📄 Resume Downloads
